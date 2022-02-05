@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather API</title>
+</head>
+<body>
+
+    <header>
+        <h1>Weather API</h1>   
+    </header>
+
+   <form action="submit" class="form">
+       <label for="city" name="search" id="form">Search for a City:</label>
+       <input type="text" id="search" name="search">
+       <button type="submit" form="form">Search</button>
+   </form>
+
+   <!-- div container for past city searches -->
+   <div class="saved-cities">
+
+   </div>
+
+   <!-- Weather Info will go here -->
+   <section>
+        <div class="weather-info">
+            <h2>City Name will go here</h2>
+            <p class="temp">
+            Temp: 
+            </p>
+            <p class="wind"> 
+            Wind: 
+            </p>
+            <p>
+            Humdity: 
+            </p>
+            <p>
+            UV Index: 
+            </p>
+        </div>
+   </section>
+
+   
+</body>
+
+<script src="./assets/js/script.js"></script>
+</html>
