@@ -12,33 +12,34 @@
     <header>
         <h1>Weather API</h1>   
     </header>
-
-   <form action="submit" class="form">
+   
+   <form action="submit" class="form" id="form">
        <label for="city" name="search" id="form">Search for a City:</label>
        <input type="text" id="search" name="search">
        <button type="submit" form="form">Search</button>
    </form>
 
    <!-- div container for past city searches -->
-   <div class="saved-cities">
+   <div class="saved-cities" id="saved-cities">
 
    </div>
 
    <!-- Weather Info will go here -->
    <section>
-        <div class="weather-info">
-            <h2>City Name will go here</h2>
-            <p class="temp">
-            Temp: 
+        <div class="weather-info" id="weather-info">
+            <!-- Ids for each data value pulled from API-->
+            <h2 id="city"></h2>
+            <p id="temp">
+            
             </p>
-            <p class="wind"> 
-            Wind: 
+            <p id="wind"> 
+            
             </p>
-            <p>
-            Humdity: 
+            <p id="humid">
+            
             </p>
-            <p>
-            UV Index: 
+            <p id="index">
+            
             </p>
         </div>
    </section>
